@@ -156,7 +156,6 @@ NIB('main', {
         
   'controller': VCardController({
           view: 'main',
-          // sampleCard: NIB.asset('cryan.vcf').content(),
           selectedGroupsBinding: 'groups.selectedObjects.string'
         }),
         
