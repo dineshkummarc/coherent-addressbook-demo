@@ -1,0 +1,142 @@
+html, body
+{
+  height: 100%;
+}
+
+/* CSS Rules for the main NIB. */
+.address-book
+{
+  font-family: 'helvetica neue', arial;
+  font-size: 14px;
+  line-height: 20px;
+  height: 100%;
+  color: #333;
+}
+
+.address-book input[type=search]
+{
+  display: block;
+}
+
+.address-book .entries
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  padding: 10px;
+}
+
+.address-book .entries .scroll-box
+{
+  background-color: white;
+  border: 1px solid #666;
+  overflow-y: scroll;
+}
+
+.address-book .entries .groups
+{
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  right: 50%;
+  margin-right: 10px;
+  bottom: 10px;
+}
+
+.address-book .entries .people
+{
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  right: 10px;
+  bottom: 10px;
+}
+
+.address-book .entries .scroll-box ul
+{
+  min-height: 100%;
+  cursor: default;
+}
+
+.address-book .entries .scroll-box ul li
+{
+  padding: 0 5px;
+}
+
+.address-book .entries .scroll-box ul li.ui-selected
+{
+  background-color: highlight;
+}
+
+.address-book .entries .scroll-box ul li.ui-inserted,
+.address-book .entries .scroll-box ul li.ui-deleted
+{
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.address-book .vcard
+{
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  right: 0;
+  bottom: 0; 
+  padding: 10px;
+}
+
+.address-book h1
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.address-book .vcard .header
+{
+  margin-left: 100px;
+}
+
+.address-book .vcard h1,
+.address-book .vcard h2,
+.address-book .vcard h3
+{
+}
+
+.address-book .vcard ul
+{
+  clear: both;
+  margin: 20px 0px;
+}
+
+.address-book .vcard a
+{
+  color: inherit;
+  text-decoration: none;
+}
+
+.address-book .vcard a:hover
+{
+  color: blue;
+}
+
+.address-book .vcard img
+{
+  float: left;
+  margin-left: -60px;
+  max-width: 48px;
+  max-height: 48px;
+  margin-bottom: 10px;
+}
+
+.address-book .vcard .label
+{
+  display: inline-block;
+  text-align: right;
+  width: 90px;
+  margin-right: 10px;
+  color: #999;
+  font-weight: bold;
+}

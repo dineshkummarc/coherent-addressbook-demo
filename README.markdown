@@ -1,0 +1,1 @@
+This is a simple application that implements an address book using the Coherent library. It demonstrates using HTML5 Drag & Drop as well as browser storage.

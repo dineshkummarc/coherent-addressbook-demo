@@ -1,0 +1,26 @@
+name: vcard
+version: 1.0.0
+notice: src/NOTICE
+type: application
+
+# Set up external projects.
+external:
+  - name: coherent
+    path: ext/coherent
+    linkage: strong
+    repository: http://github.com/jeffwatkins/coherent.git
+
+
+# This is the main target for your application. This target will yield optimised
+# CSS and Javascript files for all of your assets. In addition, it will emit
+# uncompressed and debug versions which are useful during development.
+source:
+    - src/index.html
+    
+    - src/js/core.js
+    - src/js
+
+    - src/css/reset.css
+    - src/css/core.css
+
+    - src/nibs

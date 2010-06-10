@@ -1,0 +1,120 @@
+/*  This is the primary CSS file for the vCard application. */
+
+/*  Styles for UI elements that have been selected.
+ */
+.ui-selected
+{
+}
+
+/*  Styles applied to views that are disabled. Not all browsers support the
+    disabled pseudo selector, so Coherent applies the disabled class instead.
+ */
+.ui-disabled
+{
+}
+
+/*  Views that are read-only will have these styles.
+ */
+.ui-read-only
+{
+}
+
+/*  When a view is displaying the placeholder value for a null value, the view
+    will have this class name.
+ */
+.ui-placeholder
+{
+}
+
+/*  Since not all browsers support the focus pseudo selector, Coherent applies
+    the focused class to all views that accept first responder status.
+ */
+.ui-focused
+{
+}
+
+.ui-hover
+{
+}
+
+.ui-asc
+{
+}
+
+.ui-desc
+{
+}
+
+.ui-active
+{
+}
+
+.ui-updating
+{
+}
+
+.ui-invisible
+{
+}
+
+.ui-invalid
+{
+}
+
+.ui-inserted
+{
+}
+
+.ui-deleted
+{
+}
+
+.ui-replacing
+{
+}
+
+.ui-loading
+{
+}
+
+.ui-first
+{
+}
+
+.ui-last
+{
+}
+
+.ui-drag-and-drop-copy
+{
+}
+
+.ui-drag-and-drop-move
+{
+}
+
+.ui-drag-and-drop-link
+{
+}
+
+.ui-drag-and-drop-no
+{
+}
+
+.ui-coherent_windowInactive
+{
+}
+
+.ui-outline-expanded
+{
+}
+
+.ui-outline-leaf
+{
+}
+
+.ui-outline-disclosure-button
+{
+}
+
+
